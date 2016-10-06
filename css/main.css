@@ -22,12 +22,34 @@ html {
 .img-flex {
   display: block;
   width: 100%;
+  max-height: 613px;
 }
 
 .banner {
+  width: auto;
+  position: relative;
+  color: #fff;
 
 }
 
 .banner-content {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
 
 }
+
+/*
+
+@media only screen and (min-width: 38em) {
+
+  .img-flex {
+    overflow: hidden;
+  }
+
+  .banner {
+    height: 580px;
+  }
+
+}
+*/
